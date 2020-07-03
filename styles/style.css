@@ -9,4 +9,26 @@ table {
 }
 table, td, th {
     border: 1px solid black;
+    color: gray;
+}
+.html-list {
+    list-style-type: square;
+}
+.class-list {
+    color: blue;
+}
+.center {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.center-list {
+    width: 10%;
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block;
+}
+input, label, textarea {
+    display: block;
+    margin-top: .3em;
 }
